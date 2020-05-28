@@ -1,0 +1,47 @@
+
+/* Fonts -----------------------*/
+@font-face {
+    font-family: 'introheadr-base';
+    src: url('../fonts/introheadr-base-webfont.woff2') format('woff2'),
+         url('../fonts/introheadr-base-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'introrustg-base2line';
+    src: url('../fonts/introrustg-base2line-webfont.woff2') format('woff2'),
+         url('../fonts/introrustg-base2line-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'introscriptr-h2base';
+    src: url('../fonts/introscriptr-h2base-webfont.woff2') format('woff2'),
+         url('../fonts/introscriptr-h2base-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Header Display ---------------*/
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headline {
+  font: 2.8em 'introrustg-base2line', sans-serif;
+  margin: 0;
+  text-align: center;
+  text-shadow: 5px 5px #558abb;
+}
+
+.featuring {
+  font: 1.6em 'introscriptr-h2base', serif;
+  margin: 0;
+}
